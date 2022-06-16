@@ -63,7 +63,7 @@ system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo ""
 echo -e "\033[1;37m $system                          $date"
-figlet ' alexdias9421' | boxes -d stone -p a0v0 | lolcat
+figlet ' ALFAINTERNET' | boxes -d stone -p a0v0 | lolcat
 echo "SE VI MAIS LONGE DO QUE OUTROS, FOI POR ESTÁ DE PÉ SOBRE OMBROS DE GIGANTES"
 echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
 echo ""
@@ -109,7 +109,7 @@ clear
 system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                          $date"
-figlet "alexdias9421" | lolcat
+figlet "ALFAINTERNET" | lolcat
 echo "SE VI MAIS LONGE DO QUE OUTROS, FOI POR ESTÁ DE PÉ SOBRE OMBROS DE GIGANTES" 
 echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
 echo -e "\033[1;33mOPA DETECTAMOS..."
@@ -135,13 +135,13 @@ clear
 system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                          $date"
-figlet "alexdias9421" | lolcat
+figlet "ALFAINTERNET" | lolcat
 echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                 ATUALIZAÇÕES COSTUMA DEMORAR UM POUCO !               \033[1;33m \033[0m\033[01;31m║"
 echo -e "\033[01;31m║\033[0m"
 fun_attlist () {
 apt-get update -y
 apt-get install net-tools -y
-echo "alexdias9421 ☥" > /root/name
+echo "ALFAINTERNET ☥" > /root/name
 echo "V2RAY PRO" >/etc/SSHPlus/RegV2ray
 echo "0" > /root/valor
 echo "USO INDEVIDO [ON]" > /root/banido
@@ -185,6 +185,7 @@ cd /bin/ && rm -f droplimiter*
 cd /bin/ && rm -f expcleaner*
 cd /etc/ && rm -f ban.sh*
 cd /bin/ && rm -f fail2ban*
+cd /bin/ && rm -f fr*
 cd /bin/ && rm -f haveged*
 cd /etc/ && rm -f infousers*
 cd /bin/ && rm -f initbot*
@@ -220,6 +221,7 @@ cd /etc/ && rm -f speedtest*
 cd /bin/ && rm -f sshmonitor*
 cd /bin/ && rm -f startdns*
 cd /etc/ && rm -f stopdns*
+cd /etc/ && rm -f mtuning*
 cd /bin/ && rm -f swapmemory*
 cd /bin/ && rm -f trojan-go*
 cd /etc/ && rm -f tuning*
@@ -234,11 +236,13 @@ cd /bin/ && rm -f webmin.sh*
 cd /etc/ && rm -f websocket.sh*
 cd /bin/ && rm -f wsproxy.py*
 cd /etc/ && rm -f rc.local
-cd /etc/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/rc.local > /dev/null 2>&1 
+cd /etc/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/rc.local > /dev/null 2>&1
+cd /etc/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/fr > /dev/null 2>&1 
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/.criar > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/mtuning > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/.rmuid > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/.rmuser > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Install/.uid > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/.uid > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/ackclear > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/acksyshttpack > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/addhost > /dev/null 2>&1
@@ -248,7 +252,7 @@ cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modu
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/antCrashARM.sh > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/apache2menu > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/attscript > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Install/Autobackup > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/Autobackup > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/backup_mail.sh > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/badpro > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/badvpn > /dev/null 2>&1
@@ -258,7 +262,7 @@ cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modu
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/ddos > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/blocksite > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/blockt > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Install/blockuser > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/blockuser > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/bot > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/botssh > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/cabecalho > /dev/null 2>&1
@@ -269,7 +273,7 @@ cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modu
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/delhost > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/delscript > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/detalhes > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Install/dns-netflix.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/dns-netflix.sh > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/dns-server > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/droplimiter > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/expcleaner > /dev/null 2>&1
@@ -279,7 +283,7 @@ cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modu
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/infousers > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/initbot > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/bashtop > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Install/ShellBot.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/ShellBot.sh > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/botteste > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/inst-botteste > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/inst-botteste > /dev/null 2>&1
@@ -289,7 +293,7 @@ cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modu
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/menu > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/mudardata > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/multi > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Install/onlineapp > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/onlineapp > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/open.py > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/otimizar > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/painelv2ray > /dev/null 2>&1
@@ -300,7 +304,7 @@ cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modu
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/reiniciarsistema > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/remove-slow > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/remover > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Install/restartdns > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/restartdns > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/senharoot > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/ShellBot.sh > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/slow_dns > /dev/null 2>&1
@@ -310,7 +314,7 @@ cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modu
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/slowdns-socks > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/slowdns-ssh > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/slowdns-ssl > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Install/speedtest > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/speedtest > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/sshmonitor > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/startdns > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/stopdns > /dev/null 2>&1
@@ -320,7 +324,7 @@ cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modu
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/tweaker > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/uexpired > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/userbackup > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Install/v2ray > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/v2ray > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/v2raymanager > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/verifatt > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/alexdias9421/MASTER/main/Modulos/verifbot > /dev/null 2>&1
@@ -366,6 +370,7 @@ cd /bin/ && chmod +x droplimiter
 cd /bin/ && chmod +x expcleaner
 cd /bin/ && chmod +x ban.sh
 cd /bin/ && chmod +x fail2ban
+cd /bin/ && chmod +x fr
 cd /bin/ && chmod +x haveged
 cd /bin/ && chmod +x infousers
 cd /bin/ && chmod +x initbot
@@ -375,6 +380,7 @@ cd /bin/ && chmod +x limiter
 cd /bin/ && chmod +x listARM
 cd /bin/ && chmod +x menu
 cd /bin/ && chmod +x mudardata
+cd /bin/ && chmod +x mtuning
 cd /bin/ && chmod +x multi
 cd /bin/ && chmod +x onlineapp
 cd /bin/ && chmod +x open.py
@@ -426,7 +432,7 @@ clear
 system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                          $date"
-figlet "    alexdias9421" | lolcat
+figlet "    ALFAINTERNET" | lolcat
 echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                 ATUALIZAÇÃO DE PACOTES NECESSÁRIOS                \033[1;33m \033[0m\033[01;31m║"
 echo -e "\033[01;31m║\033[0m"
 inst_pct () {
@@ -442,7 +448,7 @@ clear
 system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                          $date"
-figlet "    alexdias9421" | lolcat
+figlet "    ALFAINTERNET" | lolcat
 echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                FINALIZANDO INSTALAÇÕES NECESSÁRIAS               \033[1;33m \033[0m\033[01;31m║"
 echo -e "\033[01;31m║\033[0m"
 fun_bar "$_Ink/list $_lnk $_Ink $_1nk $key"
@@ -457,13 +463,13 @@ cd $HOME
   echo 'echo -e " SERVIDOR LIGADO À : $(uptime -p)"' >>/root/.bashrc
   echo 'echo -e " DATA : $DATE"' >>/root/.bashrc
   echo 'echo -e " HORA : $TIME"' >>/root/.bashrc
-  echo 'echo -e "@alexdias9421"' >>.bashrc
+  echo 'echo -e "@ALFAINTERNET"' >>.bashrc
   echo 'echo -e "\033[1;31m DIGITE ( menu ) PARA ENTRAR\033[0m."' >>/root/.bashrc
   echo 'echo -e ""' >>/root/.bashrc
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                          $date"
-figlet "alexdias9421" | lolcat
+figlet "ALFAINTERNET" | lolcat
 echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                INSTALACAO CONCLUIDA               \033[1;33m \033[0m\033[01;31m║"
 echo -e "\033[01;31m║\033[1;33mPARA INICIAR DIGITE: \033[1;32mmenu\033[0m"
-echo -e "\033[01;31m║\033[1;33m MAIS INFORMACOES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@alexdias9421\033[0m"
+echo -e "\033[01;31m║\033[1;33m MAIS INFORMACOES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@ALFAINTERNET\033[0m"
 rm $HOME/Plus && cat /dev/null > ~/.bash_history && history -c
